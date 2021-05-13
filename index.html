@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="image/logo.png">
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <title>EverythingOnLinux</title>
+</head>
+<body>
+   <section class="header">
+    <nav>
+        <a href="index.html"><img src="image/logo.jpg" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Welcome!</h1>
+        <p>here we go again...</p>
+        <a href="" class="hero-btn">Contact Me to learn more</a>
+    </div>
+   </section>
+
+   <!-----------technologies---------->
+   <section class="technology">
+       <h1>Worlds New Technologies</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente earum reiciendis iure voluptatem quibusdam aliquam omnis!</p>
+
+       <div class="row">
+           <div class="technology-col">
+               <h3>Intermidate</h3>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat a est similique veniam quibusdam numquam totam excepturi? Iure, suscipit. Recusandae consequatur expedita quae sapiente veritatis.</p>
+           </div>
+           <div class="technology-col">
+            <h3>Advance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat a est similique veniam quibusdam numquam totam excepturi? Iure, suscipit. Recusandae consequatur expedita quae sapiente veritatis.</p>
+        </div>
+        <div class="technology-col">
+            <h3>Red-Hat</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat a est similique veniam quibusdam numquam totam excepturi? Iure, suscipit. Recusandae consequatur expedita quae sapiente veritatis.</p>
+        </div>
+       </div>
+   </section>
+
+<!-- ----------my works------ -->
+   <section class="works">
+       <h1>My Works</h1>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum est porro, eos suscipit distinctio officia, cumque perferendis quos aliquam ad reprehenderit exercitationem voluptatum nemo perspiciatis temporibus eum error. Dolore accusantium facilis sit maiores excepturi tenetur!</p>
+       <div class="row">
+           <div class="work-col">
+               <img src="image/1920.jpg">
+                <div class="layer"> 
+                    <h3>Gaming</h3>
+                </div>
+           </div>
+             <div class="work-col">
+                <img src="image/19204.jpg">
+                 <div class="layer"> 
+                     <h3>Programming</h3>
+                 </div>
+           </div>
+           <div class="work-col">
+            <img src="image/1925.jpg">
+             <div class="layer"> 
+                 <h3>Hacking</h3>
+             </div>
+       </div>
+        </div>
+       </div>
+   </section>
+
+   <!-- ---------contact me, call to action ---------  -->
+   <section class="cta">
+        <h1>Subscribe My Youtube Channel to learn More.<h1>
+        <a href="https://www.youtube.com/channel/UCUIBiB96uxEaZpen0yvOOOQ" target="_blank" class="hero-btn">Subscribe</a>
+   </section>
+
+
+   <!-- ----------footer------------ -->
+   <section class="footer">
+       <h4>About Me</h4>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas iure praesentium modi possimus quo quae libero nemo facere deserunt. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum vel molestias ullam corrupti deleniti?</p>
+   </section>
+
+
+
+
+
+
+
+<!--------javascript for toogle menu--------->
+   <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+           navLinks.style.right = "0";
+       }
+       function hideMenu(){
+           navLinks.style.right = "-200px";
+       }
+   </script>
+
+
+</body>
+</html>
