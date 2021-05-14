@@ -9,12 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/22475a96b0.js" crossorigin="anonymous"></script>
     <title>EverythingOnLinux</title>
 </head>
 <body>
    <section class="header">
     <nav>
-        <a href="index.html" id="mylogo">EverythingOnLinux</a>
+        <a href="index.html" id="mylogo"><alt=""></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-window-close" onclick="hideMenu()"></i>
             <ul>
@@ -92,6 +93,12 @@
    <section class="footer">
        <h4>About Me</h4>
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas iure praesentium modi possimus quo quae libero nemo facere deserunt. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum vel molestias ullam corrupti deleniti?</p>
+       <div class="icons">
+           <i class="fa fa-facebook"> </i>
+           <i class="fa fa-twitter"> </i>
+           <i class="fa fa-instagram"> </i>
+           <i class="fa fa-youtube"> </i>
+        <p>Made with<i class="fa fa-heart-o"> </i>by Kalpit</p>
    </section>
 
 
@@ -104,10 +111,10 @@
    <script>
        var navLinks = document.getElementById("navLinks");
        function showMenu(){
-           navLinks.style.right = "0";
+           navLinks.style.left = "0";
        }
        function hideMenu(){
-           navLinks.style.right = "-200px";
+           navLinks.style.left = "-200px";
        }
    </script>
 
